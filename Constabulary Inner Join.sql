@@ -1,0 +1,2 @@
+USE cis23608871;
+SELECT Officer.Officer_ID, Officer.Reported_By ,Officer.Policing_Operation, Constabulary.Constabulary_ID,Constabulary.LSOA_Code,Constabulary.LSOA_Name FROM Officer INNER JOIN Constabulary ON Officer.Constabulary_ID = Constabulary.Constabulary_ID;

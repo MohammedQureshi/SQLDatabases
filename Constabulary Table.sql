@@ -1,0 +1,5 @@
+CREATE TABLE cis23608871.Constabulary(
+		Constabulary_ID INT(10) AUTO_INCREMENT PRIMARY KEY,
+        LSOA_Code VARCHAR(10),
+        LSOA_Name VARCHAR(50)
+);
